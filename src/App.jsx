@@ -9,11 +9,11 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <Header />
+      <Header title="Counter App" />
       <Content />
       <Counter count={count} setCount={setCount} />
       <Status count={count} />
-      <Footer />
+      <Footer year="2024" />
     </div>
   );
 }
